@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Genshin Impact</title>
+    <!-- link to style.css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- link to script.js - make sure to defer -->
+    <script src="./js/navbar.js" defer></script>
+  </head>
+  <body>
+    <!-- nav element goes here -->
+<nav>
+  <a href="./index.html"><img id="logo" src="./images/Genshin_Impact_logo 3.png" alt="Logo"></a>
+  <img id="hamburger" src="./icons/menu.svg" alt="Menu" onclick="toggleMenu()" />
+  <div id="overlay" onclick="toggleMenu()"></div>
+  <ul id="menu" onclick="toggleMenu()">
+    <li><a href="./what-is-genshin-impact/">What is Genshin Impact?</a></li>
+    <li><a href="./how-to-play/">How to Play</a></li>
+    <li><a href="./gameplay/">Gameplay</a></li>
+    <li><a href="./characters/">Characters</a></li>
+    <li><a href="../credits/">Credits</a></li>
+  </ul>
+</nav>
+
+    <!-- main element goes here -->
+    <main>
+
+      <article>
+        <!-- header of article goes here -->
+        <img src="../images/Genshin Impact Header Img@2x.jpg" alt="Genshin Impact Desktop Header" class="hidden-mobile">
+        <img src="../images/Genshin Impact Header Mobile.png" alt="Genshin Impact Mobile Header" class="visible-mobile">
+        <header>
+          <section id="Home">
+            <h1>Welcome to Genshin Impact!</h1>
+            <p>
+                This website is dedicated to the newly released, free-to-play, open world gatcha game; <b>Genshin Impact</b>, devloped by miHoYo. 
+            </p>
+            <p>
+                Here you can learn the basics of Genshin Impact such as; how to play, what platforms it's on, gameplay clips, along with a few character cards for unlockable characters within the game.
+            </p>
+            <p>
+                Click on any of the links above to access that section's content, and enjoy your dive into the wonderful world of <b>Genshin Impact</b>. 
+            </p>
+            <p>
+                If you want to return to the home menu, click on the Logo at any time!
+            </p>
+          </section>
+        </header>
+        </article>
+
+        
+    </main>
+
+
+    <!-- footer element goes here -->
+    <footer>
+      <p>This website was made by
+        <a href="/">Jake Jeffries</a>
+        in
+        <a href="https://mejo187.com">Foundations of Interactive Media</a>
+        at
+        <a href="https://unc.edu">The University of North Carolina at Chapel Hill</a>. 
+        All assets used for this website can be found at the game's main page at: 
+        <a href="https://genshin.mihoyo.com/en">their Official Website.</a>
+      </p>
+    </footer>
+  </body>
+</html>

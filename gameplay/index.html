@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is Genshin Impact</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/navbar.js" defer></script>
+    <script src="../js/model-img.js" defer></script>
+    
+</head>
+<main>
+    <nav>
+        <a href="../index.html"><img id="logo" src="../images/Genshin_Impact_logo 3.png" alt="Logo"></a>
+        <img id="hamburger" src="../icons/menu.svg" alt="Menu" onclick="toggleMenu()" />
+        <div id="overlay" onclick="toggleMenu()"></div>
+        <ul id="menu" onclick="toggleMenu()">
+          <li><a href="../what-is-genshin-impact/">What is Genshin Impact?</a></li>
+          <li><a href="../how-to-play/">How to Play</a></li>
+          <li><a href="../gameplay/">Gameplay</a></li>
+          <li><a href="../characters/">Characters</a></li>
+          <li><a href="../credits/">Credits</a></li>
+        </ul>
+      </nav>
+
+      <article>
+        <!-- header of article goes here -->
+        <img src="../images/Genshin Impact Header Img@2x.jpg" alt="Genshin Impact Desktop Header" class="hidden-mobile">
+        <img src="../images/Genshin Impact Header Mobile.png" alt="Genshin Impact Mobile Header" class="visible-mobile">
+      <header>
+        <section id="Gameplay">
+            <h3>Gameplay</h3>
+            <p>
+                Each character has two unique combat skills: an elemental skill and an elemental burst. The elemental skill is an ability that can be used at any time, providing a cooldown period immediately after use. The elemental burst acts as a character’s ultimate ability, requiring the user to amass a sufficient level elemental energy by defeating enemies, or inflicting elemental statuses, before it can be used.
+            </p>
+            <p>
+                Each character has control over one of seven natural elements in the game being: <b>Cryo, Dendro, Pyro, Hydro, Anemo, Electro and Geo</b>. These correspond to: <b>ice, nature, fire, water, air, electricity, and earth</b>. These elements can interact with each other in a variety of different ways. For example, if a character uses a Hydro attack against a target, the enemy will be inflicted with the “Wet” status effect. If the enemy is hit with a Cryo attack, they will be inflicted with the “Cold” status.
+            </p>
+            <p>
+                These two statuses combine into the “Frozen” status, which temporarily prevents the enemy from performing any actions, allowing the player to deal bonus physical and elemental damage, causing the “Shatter” effect to the enemy.
+            </p>
+            <p>
+                Switching between characters during combat and executing elemental skills is vital to allow these elemental interactions to take place dealing massive damage with stunning effects. Certain elemental abilities may be required to solve puzzles within the overworld, and other elemental abilities may be naturally activated in the overworked, such as zapping enemies by who are standing in a puddle of water.
+            </p>
+            <p>
+                Below is the full elemental reaction chart showing each element indicated by an icon and the corresponding effect when interacting with another element:
+            </p>
+            <div id="modal" onclick="toggleModal()">
+                <img src="../images/Genshin Impact Elements.jpg" alt="Genshin Impact Elements"  width="10px" height="10px" />
+              </div>
+              <img onclick="toggleModal()" src="../images/Genshin Impact Elements.jpg" alt="Genshin Impact Elements" width="100%"/>
+        </section>
+        </header>
+        </article>
+    </main>
+
+    <footer>
+        <p>This website was made by
+          <a href="/">Jake Jeffries</a>
+          in
+          <a href="https://mejo187.com">Foundations of Interactive Media</a>
+          at
+          <a href="https://unc.edu">The University of North Carolina at Chapel Hill</a>. 
+          All assets used for this website can be found at the game's main page at: 
+          <a href="https://genshin.mihoyo.com/en">their Official Website.</a>
+        </p>
+      </footer>
+
+</html>
